@@ -1,0 +1,25 @@
+h1, h2{
+    color: blue;
+}
+
+h1:hover{
+    color: rgb(78, 92, 57);
+    cursor: pointer;
+}
+
+p{
+    color: green;
+}
+
+.cor-laranja {
+    color: orange;
+}
+
+#titles {
+      background-color : aqua ;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}

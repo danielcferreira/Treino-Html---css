@@ -5,19 +5,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!– poem o nome na aba do navegador –>.
+    <!--poem o nome na aba do navegador -->  
     <title>Loja top</title>
+
+    <!-- referenciando o css -->
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
 
    <header>
      <nav>
-      <!- h1 por padrão tem display bloqueado ->
+      <!-- h1 por padrão tem display bloqueado -->
        <h1>Loja Top</h1>
           <ul>
   
-              <!– para abri o vs code na pasta, dentro da pasta escrever code .  –>
-              <!– aqui seguem os links para cada categoria  –>
+              <!-- para abri o vs code na pasta, dentro da pasta escrever code . -->
+              <!-- aqui seguem os links para cada categoria -->
    
               <li><a href="#categories">Categoria</a></li>
               <li><a href="#titles">Titulos</a></li>
@@ -27,10 +31,14 @@
      </nav>
    </header>
      <main>
-      <!– pelos id eu posso chamar os links –>
-    <!– colocar os id's em ingles –>
+      <!-- pelos id eu posso chamar os links 
+        colocar os id's em ingles -->
      <section id="categories">
-      <h2 >Categorias</h2>
+      <!-- 
+        fazendo uso do class para modificar um determinado funcionalidade com 
+        css
+      -->
+      <h2 class="cor-laranja">Categorias</h2>
       <ul>
         <li>Fantasia</li>
         <li>Educação</li>
@@ -40,24 +48,24 @@
 
      <section id="titles">
       <h2>Titulos</h2>
-       <div>
-        <!– aqui chama as imagens –>
-        <!– as imagens tem o display inline –>
+       <div class="card">
+        <!-- aqui chama as imagens 
+        <!– as imagens tem o display inline -->
        <img src="img/book1.jpg" alt="O senhor dos aneis" />
         <div>
-          <h3>O senhor dos aneis</h3>
+          <h3 class="cor-laranja" >O senhor dos aneis</h3>
           <p>Navegue por essa grande aventura</p>
           <p><span>R$</span>R$ 389.99</p>
         </div>
        
        </div> 
 
-       <div>
+       <div class="card">
         <img src="img/book2.jpg" alt="Ruby para leigos" />
         <div>
-          <h3>Ruby para leigos aprenda essa fantastica ferramenta</h3>
+          <h3 class="cor-laranja" >Ruby para leigos aprenda essa fantastica ferramenta</h3>
  
-          <!– P chama um paragrafo –>
+          <!-- P chama um paragrafo -->
           <p><span>R$</span> 250.49</p>
         </div>
         
@@ -74,8 +82,8 @@
         <p>Ajudamos pessoas a se tornarem desenvolvedores profissionais</p>
         <h3>saiba mais</h3>
     
-        <!– incorpora um video do youtube  –>
-        <iframe>
+        <!-- incorpora um video do youtube  -->
+        <iframe
           width="320"
           height="180"
           src="https://www.youtube.com/embed/VNuXka4MQy8"
@@ -83,7 +91,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        </iframe>
+        ></iframe>
 
       </section>
 
